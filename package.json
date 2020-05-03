@@ -1,0 +1,24 @@
+{
+  "name": "sum-projekt",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erikato-git/SUM-projekt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erikato-git/SUM-projekt/issues"
+  },
+  "homepage": "https://github.com/erikato-git/SUM-projekt#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "pug": "^2.0.4"
+  }
+}

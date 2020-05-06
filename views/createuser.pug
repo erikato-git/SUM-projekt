@@ -1,0 +1,17 @@
+include includes/header
+.form
+  h1 #{pageTitle}
+  form(action='/login/createuser', method='POST')
+    input(
+      type='text'
+      name='username' 
+      placeholder='Username' 
+      required
+    )
+    input(
+      type='password'
+      name='password' 
+      placeholder='Password' 
+      required
+    )
+    input(type='submit')

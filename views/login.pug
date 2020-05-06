@@ -1,0 +1,19 @@
+include includes/header
+if !isLoggedIn
+  a(href='/login/createuser') Opret bruger
+.form
+  h1 Login Form
+  form(action='/login/auth', method='POST')
+    input(
+      type='text'
+      name='username' 
+      placeholder='Username' 
+      required
+    )
+    input(
+      type='password'
+      name='password' 
+      placeholder='Password' 
+      required
+    )
+    input(type='submit')
